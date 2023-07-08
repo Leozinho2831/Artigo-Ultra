@@ -40,12 +40,6 @@ body.dark{
     color: #00b9ff;
 }
 
-.dark .text a:hover{
-    background: linear-gradient(to right, #FF1493, #9400D3);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .checkbox{
     opacity: 0;
     position: absolute;
@@ -216,15 +210,8 @@ body.dark{
 }
 
 .text a{
-    color: blue;
-    text-decoration: none;
+    color: rgb(0, 0, 255);
     transition: all 0.2s ease-in-out;
-}
-
-.text a:hover{
-    background: linear-gradient(to right, #FFD700, #FF4500);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .buttons{
@@ -247,6 +234,10 @@ body.dark{
     font-weight: 800;
 
     transition: all .28s ease-in-out;
+}
+
+.buttons a{
+    text-decoration: none;
 }
 
 #button-1:hover{
